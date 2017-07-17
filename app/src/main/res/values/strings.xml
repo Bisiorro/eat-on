@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">eat-on</string>
+    <color name="backgroundYellow">#FEF7C3</color>
+    <color name="mainTextBrown">#6C4300</color>
+    <color name="lowTextBrown">#B67A00</color>
+</resources>
