@@ -3,8 +3,9 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-     
-    android:tileMode="disabled" android:gravity="top" >
+    android:background="@color/backgroundYellow"
+    android:tileMode="disabled" android:gravity="top"
+    android:weightSum="1">
 
 
     <Button
@@ -14,7 +15,10 @@
         android:layout_marginLeft="100dp"
         android:layout_marginRight="100dp"
         android:layout_marginTop="100dp"
-        android:text="All recipes" />
+        android:text="All recipes"
+        android:textColor="@color/backgroundYellow"
+        android:background="@color/mainTextBrown"
+        android:textSize="30sp"/>
 
 
     <Button
@@ -24,7 +28,10 @@
         android:layout_marginRight="100dp"
         android:layout_marginLeft="100dp"
         android:layout_width="fill_parent"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="10dp"
+        android:textColor="@color/backgroundYellow"
+        android:background="@color/mainTextBrown"
+        android:textSize="30sp"/>
 
     <Button
         android:id="@+id/button3"
@@ -33,5 +40,9 @@
         android:layout_marginRight="100dp"
         android:layout_marginLeft="100dp"
         android:layout_width="fill_parent"
-        android:layout_marginTop="10dp"/>
-    </LinearLayout>
+        android:layout_marginTop="10dp"
+        android:textColor="@color/backgroundYellow"
+        android:background="@color/mainTextBrown"
+        android:textSize="30sp"/>
+
+</LinearLayout>
